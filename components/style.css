@@ -1,0 +1,40 @@
+@import './styles/header/navbar.css';
+@import './styles/header/title.css';
+@import './styles/main/about.css';
+@import './styles/main/servis.css';
+@import './styles/main/clients.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;
+}
+
+.container  {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+#clients p{
+    color: var(--primary, #1341EC);
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+}
+
+#clients h2{
+    color: var(--grey-1, #000);
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 81px;
+text-shadow: 10px -30px 5px #c2c2c2 ;
+}
+
+#clients{
+    text-align: center;
+}
+
+

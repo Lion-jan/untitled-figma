@@ -1,0 +1,110 @@
+#title>.container{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 100px 29px;
+    border-radius: 15.922px;
+border: 0.663px solid #10254D;
+}
+
+#title{
+    background-image: url(/publlic/images/title-bg-img.svg);
+    background-color:  #065ad8;
+    color: #fff;
+    padding: 48px 0;
+}
+.title-text h6{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+}
+.title-text p{
+    color: #FFF;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-variant: small-caps;
+letter-spacing: 1.92px;
+}
+
+.title-text h1{
+    color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px;
+
+}
+
+.title-form input{
+    padding: 18px 130px 18px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0 0 10px ;
+}
+
+.title-form a{
+    padding: 16px 26px;
+    background-color: #065ad8;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 0 10px 10px 0;
+}
+
+.title-form {
+    display: flex;
+}
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media (max-width :481px){
+
+
+    #title>.container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    
+    
+    #title>.container img{
+        width: 100%;
+    }
+
+    .title-form input {
+       padding: 0 35px 0 15px  ;
+
+    }
+
+    .title-form a{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .title-text h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .title-text p{
+        font-size: 10px;
+    }
+     
+    .title-text h6{
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    #title{
+        padding:30px 15px;
+    }
+    
+}

@@ -1,0 +1,79 @@
+#services h3{
+    color: var(--grey-1, #000);
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-shadow: 30px -20px 4px #c2c2c2;
+}
+
+.servis-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 6  0px;
+}
+
+.image{
+    
+    padding: 30px 33px;
+    color: #fff;
+    padding-top: 365px;
+}
+
+.image h2{
+    color: #FFF;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+display: inline-block;
+overflow: hidden;
+}
+
+.image1{
+    background-image: url(/publlic/images/servis1-img.png);
+    background-repeat: no-repeat;
+}
+
+.image2{
+    background-image: url(/publlic/images/servis2-img.png);
+    background-repeat: no-repeat;
+}
+
+.image3{
+    background-image: url(/publlic/images/servis3-img.png);
+    background-repeat: no-repeat;
+}
+
+.image4{
+    background-image: url(/publlic/images/servis4-img.png);
+    background-repeat: no-repeat;
+}
+
+.image5{
+    background-image: url(/publlic/images/servis5-img.png);
+    background-repeat: no-repeat;
+}
+
+.image5{
+    background-image: url(/publlic/images/servis5-img.png);
+    background-repeat: no-repeat;
+}
+
+.image6{
+    background-image: url(/publlic/images/servis6-img.png);
+    background-repeat: no-repeat;
+}
+
+.image7{
+    background-image: url(/publlic/images/servis7-img.png);
+    background-repeat: no-repeat;
+   
+}
+
+@media (max-width:480px){
+    
+}
+
