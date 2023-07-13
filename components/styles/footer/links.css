@@ -1,0 +1,49 @@
+#links{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#links a{
+    text-decoration: none;
+    color: #000;
+}
+.link-contact a{
+    display: flex;
+    gap: 10px;
+}
+.contact-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.pages ul{
+    display: flex;
+    flex-direction: column  ;
+    gap: 10px;
+    list-style: none;
+    
+}
+
+.pages{
+    text-align: center;
+}
+.text {
+   display: flex;
+   flex-basis: 30%;
+}
+
+
+@media (max-width:568px) {
+    .contact-flex{
+        flex-wrap: wrap;
+    }
+    .text{
+        width: 100%;
+    }
+}
