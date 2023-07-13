@@ -4,6 +4,8 @@
 @import './styles/main/servis.css';
 @import './styles/main/clients.css';
 @import './styles/main/dark-menu.css';
+@import './styles/footer/links.css';
+@import './styles/footer/footer.css';
 
 
 *{

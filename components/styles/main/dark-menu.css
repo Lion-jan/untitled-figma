@@ -22,10 +22,11 @@
 textarea{
     background-color: #000;
     border: none;
+    color: #fff;
 }
 
 @media (max-width:568px){
     #dark-menu>.container{
-        flex-direction: column-reverse;
+        flex-direction: column-reverse  ;
     }
 }
