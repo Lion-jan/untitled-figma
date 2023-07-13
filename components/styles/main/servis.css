@@ -72,8 +72,19 @@ overflow: hidden;
     background-repeat: no-repeat;
    
 }
+.card{
+    border-radius: 17.129px;
+background: #FFF;
+box-shadow: 0.8564284443855286px 2.5692856311798096px  rgba(0, 0, 0, 0.25);
+padding: 30px;
+margin: 0 auto  ;
 
-@media (max-width:480px){
-    
 }
 
+.button-prev{
+    background-color: #646262;
+    border-radius: 20px;
+}
+ .button-prev:hover{
+    background-color: #000;
+}

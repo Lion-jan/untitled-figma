@@ -1,0 +1,31 @@
+#dark-menu>.container{
+ display: flex;
+ justify-content: center;
+ gap: 130px;
+}
+
+.dark-forms input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f2f2f2;
+    color: #fff;
+    background-color: #000;
+}
+
+#dark-menu{
+    background-color: #000;
+    padding-top: 172px;
+    padding-bottom: 172px;
+}
+
+
+textarea{
+    background-color: #000;
+    border: none;
+}
+
+@media (max-width:568px){
+    #dark-menu>.container{
+        flex-direction: column-reverse;
+    }
+}
